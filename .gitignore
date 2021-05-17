@@ -1,2 +1,8 @@
+run/*
+!run/scripts/
+!run/resources/
+*.suo
+/.vs
+
 build
 .gradle
