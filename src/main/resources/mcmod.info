@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "expandedreactors",
+  "name": "Expanded Reactors",
+  "description": "Expanded Reactors mod for Minecraft aiming in introducing realistic reactors into the game that generate heat which can be converted into steam and then into electricity.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "credits": "TomaszJH",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
