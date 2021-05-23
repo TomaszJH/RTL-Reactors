@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "expandedreactors:manual"
+    },
+    "title": {
+      "translate": "advancement.expandedreactors.rtfm.name"
+    },
+    "description": {
+      "translate": "advancement.expandedreactors.rtfm.desc"
+    }
+  },
+  "parent": "expandedreactors:root",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "expandedreactors:manual"
+          }
+        ]
+      }
+    }
+  }
+}

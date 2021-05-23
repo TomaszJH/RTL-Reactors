@@ -1,0 +1,23 @@
+#itemgroups
+itemGroup.expandedreactors=Expanded Reactors
+
+#items
+item.wrench.name=Wrench
+item.analyzer.name=Analyzer
+item.manual.name=Expanded Reactors, Operations Manual
+
+#blocks
+tile.assembler.name=Assembly Machine
+
+#tile entities
+
+
+#advancements
+advancement.expandedreactors.root.name=Expanded Reactors
+advancement.expandedreactors.root.desc=Prepare for something BIG!
+
+advancement.expandedreactors.rtfm.name=RTFM!
+advancement.expandedreactors.rtfm.desc=Reading the manual saves lives and prevents legal issues.
+
+advancement.expandedreactors.chernobyl2.name=1986...again
+advancement.expandedreactors.chernobyl2.desc=Mess up on a global scale and then reconsider the choices you made that night.

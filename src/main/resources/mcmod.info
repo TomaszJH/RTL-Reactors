@@ -2,13 +2,13 @@
 {
   "modid": "expandedreactors",
   "name": "Expanded Reactors",
-  "description": "Expanded Reactors mod for Minecraft aiming in introducing realistic reactors into the game that generate heat which can be converted into steam and then into electricity.",
+  "description": "Realistic reactors done the Minecraft way.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "TomaszJH",
+  "authorList": ["TomaszJH"],
+  "credits": "Nothing here...yet",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe",
+      "data": 11
+    },
+    "title": {
+      "translate": "advancement.expandedreactors.root.name"
+    },
+    "description": {
+      "translate": "advancement.expandedreactors.root.desc"
+    },
+    "background": "minecraft:textures/blocks/iron_block.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "location": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension":"overworld"
+      }
+    }
+  }
+}
