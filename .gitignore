@@ -6,3 +6,6 @@ run/*
 
 build
 .gradle
+
+.idea
+.settings
