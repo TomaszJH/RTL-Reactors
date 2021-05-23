@@ -5,11 +5,11 @@ Expanded Reactors mod for Minecraft aiming in introducing realistic reactors int
 
 I do not take any responsibility for corrupted worlds / destroyed bases for using an unfinished mod.
 
-##Why am I making another reactor mod?
+## Why am I making another reactor mod?
 Answer is simple, all other mods are either not implementing realistic reactors, or are made for an older version and will not update to newer versions.
 
 
-##To do List:
+## To do List:
 * Implement the RBMK reactor, and all subsystems that match the real-world counterpart (main goal)
 * Implement a nuclear fuel processing system (all stages to match real-world actions)
 * Implement the VVER/PWR reactors
