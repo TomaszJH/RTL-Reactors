@@ -4,7 +4,7 @@ itemGroup.expandedreactors=Expanded Reactors
 #items
 item.wrench.name=Wrench
 item.analyzer.name=Analyzer
-item.manual.name=Expanded Reactors, Operations Manual
+item.er_manual.name=Expanded Reactors, Operations Manual
 
 #blocks
 tile.assembler.name=Assembly Machine
