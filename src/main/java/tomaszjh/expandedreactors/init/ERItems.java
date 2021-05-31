@@ -32,6 +32,8 @@ public class ERItems extends RegistrationHandler {
         registerRender(CHRBYLSTK);
         registerRender(MANUAL);
         registerRender(GEIGER_COUNTER);
+        registerRender(WRENCH);
+        registerRender(ANALYZER);
     }
 
 

@@ -1,5 +1,6 @@
 package tomaszjh.expandedreactors.item;
 
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
@@ -9,22 +10,28 @@ import net.minecraft.world.World;
 import tomaszjh.expandedreactors.ExpandedReactors;
 
 import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class ItemManual extends ERItem {
 
     public ItemManual() {
-        super("manual");
+        super("er_manual");
     }
 
     @Nonnull
-    //@Override
-    public ActionResult<ItemStack> onItemRightClick(@Nonnull ItemStack itemStack, World world, EntityPlayer player, EnumHand hand) {
+    public ActionResult<ItemStack> onItemRightClick(World world, EntityPlayer player, EnumHand hand) {
 
-        ItemStack stack = player.getHeldItem(hand);
+        ItemStack itemStackIn = player.getHeldItem(hand);
         if (world.isRemote) {
-            System.out.println("Item Was Clicked");
-            //TODO: player.openGui(ExpandedReactors.instance, );
+            ExpandedReactors.proxy.openManualGui(itemStackIn);
         }
-        return new ActionResult<>(EnumActionResult.SUCCESS, itemStack);
+        return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, itemStackIn);
+    }
+
+    @Override
+    public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
+        tooltip.add("\u00a74READ THIS BEFORE WRECKING YOUR BASE!");
+        tooltip.add("NOT UNDERSTANDING BASIC CONCEPTS WILL CAUSE USER ERROR AND IRREVERSIBLE DAMAGE TO YOUR PROPERTY");
     }
 }
