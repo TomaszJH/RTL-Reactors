@@ -33,5 +33,6 @@ public class ItemManual extends ERItem {
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
         tooltip.add("\u00a74READ THIS BEFORE WRECKING YOUR BASE!");
         tooltip.add("NOT UNDERSTANDING BASIC CONCEPTS WILL CAUSE USER ERROR AND IRREVERSIBLE DAMAGE TO YOUR PROPERTY");
+        tooltip.add("\u00a7cManual Still WIP, content will be added");
     }
 }

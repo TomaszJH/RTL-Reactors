@@ -48,7 +48,7 @@ public class GuiManualCover extends GuiScreen {
     @Override
     public void mouseClicked(int mouseX, int mouseY, int mouseButton) {
         if (mouseButton == 0) {
-            Minecraft.getMinecraft().displayGuiScreen(new GuiManualIndex());
+            Minecraft.getMinecraft().displayGuiScreen(new GuiManual());
         }
     }
 

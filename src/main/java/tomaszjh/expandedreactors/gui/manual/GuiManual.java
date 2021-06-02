@@ -9,15 +9,15 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import java.util.ArrayList;
 
 @SideOnly(Side.CLIENT)
-public class GuiManualIndex extends GuiScreen {
+public class GuiManual extends GuiScreen {
     protected static final int X = 410;
     protected static final int Y = 230;
     private static final ResourceLocation TEXTURE = new ResourceLocation("expandedreactors:textures/gui/manual/manual.png");
-    //public List<EnumManualPages> allPageTypes = new ArrayList<EnumManualPages>();
+    public EnumManualChapters pageType;
     protected ItemStack book;
     protected boolean index;
 
-    public GuiManualIndex() {
+    public GuiManual() {
         this.book = book;
         int indexPageTotal = 0;
         index = true;
@@ -44,5 +44,15 @@ public class GuiManualIndex extends GuiScreen {
     @Override
     public boolean doesGuiPauseGame() {
         return false;
+    }
+
+    public void drawPerPage(int bookPages) {
+
+        switch (this.pageType) {
+            case INTRODUCTION:
+                if (bookPages == 0) {
+
+                }
+        }
     }
 }

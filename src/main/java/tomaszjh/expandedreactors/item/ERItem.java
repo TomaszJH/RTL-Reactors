@@ -4,7 +4,7 @@ import net.minecraft.item.Item;
 import tomaszjh.expandedreactors.creativetab.CreativeTab;
 import tomaszjh.expandedreactors.init.ERItems;
 
-public class ERItem extends Item{
+public class ERItem extends Item {
 
     private final String BASE_NAME;
     private final String[] VARIANTS;
