@@ -1,6 +1,6 @@
 package tomaszjh.expandedreactors.tileentity.reactors.rbmk;
 
-public interface IRBMKControl {
+public interface IRBMKControl extends IRBMKBase {
     void AZ5Pressed();
     void setRodSetPoint(double setPoint);
     double getRodPosition();

@@ -21,18 +21,17 @@ public abstract class RBMKBase extends TileEntity implements IRBMKBase {
     public int channelXPos, channelYPos;
     public double xeonLevel;
     public double coreTemp;
-    public /*FluidTank*/ byte waterLevel;
-    public /*FluidTank*/ byte steamLevel;
+    public double waterLevel;
+    public double steamLevel;
     public double neutronFlux;
     public double neutronRate;
     public double thermalPower;
-    public double waterPressure;
 
-
-    public static final double MELTDOWN_TEMP = 1800D;
-    public static final double HYDROGEN_TEMP = 1500D;
-    public static final double WATER_BOILING_TEMP = 100D;
-    public static final double WATER_BOILING_TEMP_PRESS = 290D;
+    //All Temps are in Degrees Kelvin
+    public static final double MELTDOWN_TEMP = 2073.15D;
+    public static final double HYDROGEN_TEMP = 1773.15D;
+    public static final double WATER_BOILING_TEMP = 373.15D;
+    public static final double WATER_BOILING_TEMP_PRESS = 563.15D;
 
     protected EnumFacing[] dirs = EnumFacing.values();
 
@@ -62,6 +61,10 @@ public abstract class RBMKBase extends TileEntity implements IRBMKBase {
 
     public double getMaxTemperature() {
         return MELTDOWN_TEMP;
+    }
+
+    public void setCoreTemp(int T) {
+        coreTemp = T;
     }
 
     protected void onMeltdown() {

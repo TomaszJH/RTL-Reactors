@@ -9,5 +9,6 @@ public interface IRBMKBase {
     boolean allowHeatExtraction();
     boolean allowExternalHeating();
     double getMaxTemperature();
+    void setCoreTemp(int T);
 
 }
