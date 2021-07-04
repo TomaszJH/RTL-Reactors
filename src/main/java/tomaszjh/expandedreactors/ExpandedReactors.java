@@ -1,15 +1,14 @@
 package tomaszjh.expandedreactors;
 
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
-import net.minecraftforge.fml.common.event.*;
-import tomaszjh.expandedreactors.config.ERConfig;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import tomaszjh.expandedreactors.handler.RenderGuiHandler;
-import tomaszjh.expandedreactors.init.ERItems;
 import tomaszjh.expandedreactors.proxy.CommonProxy;
 import tomaszjh.expandedreactors.refrence.Refrence;
 
