@@ -20,6 +20,9 @@ public class RBMKControlRod extends RBMKBase implements IRBMKControl {
 
         this.rodPosition = nbt.getDouble("rod_position");
         this.rodSetPoint = nbt.getDouble("rod_setpoint");
+        this.coreTemp = nbt.getDouble("core_temperature");
+        this.steamLevel = nbt.getDouble("steam_level");
+        this.waterLevel = nbt.getDouble("water_level");
     }
 
     @Override
@@ -28,6 +31,9 @@ public class RBMKControlRod extends RBMKBase implements IRBMKControl {
 
         nbt.setDouble("rod_position", this.rodPosition);
         nbt.setDouble("rod_setpoint", this.rodSetPoint);
+        nbt.setDouble("core_temperature", this.coreTemp);
+        nbt.setDouble("steam_level", this.steamLevel);
+        nbt.setDouble("water_level", this.waterLevel);
         return nbt;
     }
 
@@ -56,4 +62,9 @@ public class RBMKControlRod extends RBMKBase implements IRBMKControl {
         this.rodSetPoint = 0D;
     }
 
+    public void update() {
+        rodMotion();
+
+    }
 }
+

@@ -2,10 +2,12 @@ package tomaszjh.expandedreactors.util;
 
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.FluidTank;
+import net.minecraftforge.fluids.capability.IFluidHandler;
 
-public class TankFactory extends FluidTank {
+public class TankFactory extends FluidTank implements IFluidHandler {
 
     protected final String name;
 

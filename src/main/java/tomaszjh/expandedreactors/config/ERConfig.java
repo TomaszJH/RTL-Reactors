@@ -16,7 +16,8 @@ public class ERConfig {
 
     //config options
     //Experimental
-    public static boolean enableCherenkovRadiation;
+    public static boolean enableCherenkovRadiation; //Highly Experimental / Laggy
+    public static boolean useNuclearCraftRadiation; //Use only if NuclearCraft is present in the modpack!
 
 
     private static void syncConfig(boolean loadFromFile, boolean setFromConfig) {

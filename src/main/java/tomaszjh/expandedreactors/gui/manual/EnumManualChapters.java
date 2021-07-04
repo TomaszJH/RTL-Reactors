@@ -15,6 +15,7 @@ public enum EnumManualChapters {
     BWR(0),
     VVER(0),
     RBMK(0),
+    UTILITY_ITEMS(0),
     PATRONS(0);
 
     public int pages;
