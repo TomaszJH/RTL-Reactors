@@ -1,21 +1,25 @@
-MIT License
+Copyright © 2021 Tomasz Huczek. All Rights Reserved
 
-Copyright (c) 2021 TomaszJH
+This code is the property of and therefore owned by Tomasz Huczek.
+This code is made publicly visible under following conditions:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1: Viewing of this code.
+Everyone is allowed to view the source code for educational purposes and private works. Git forks and direct downloads fall under private work.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2: Using this code
+It is forbidden to use and modify this code without prior written permission by post, e-mail or any other method that will provide proof for commercial or public works.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+If permission is given, this licence, or a derivative of this licence that is approved by the original author, must be included in given project.
+
+No attempt cannot be made to achieve monetary gain from this code by anyone except the original author. This covers ad-walls and donations. If a project recieves permission to use this code, any monetary gain must be shared with the original author. Share is decided prior to giving permission.
+
+Finally, if any of the code is used, must contain attribution to the original author and a link to original source.
+
+3: Modpack policy
+Everyone is allowed to use pre-compiled binaries of this code in mod packs, however a link and the author must be included in the mod list.
+
+4: Reposting policy
+Reposting the mod without prior consent is strictly forbidden and a takedown notice will be issued if such action occurs.
+
+
+Failure to comply with these restrictions is a violation of copyright law and will be dealt with accordingly under European law.
